@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-    <script src="akan.js"></script>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/jpeg"
-        href="https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-    <link
-        href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script|Indie+Flower|Shadows+Into+Light&display=swap"
-        rel="stylesheet">
-    <title>Akan Name</title>
+	<title></title>
 </head>
-
 <body>
-  
-    
-</body>
+	<h1>Registration successful</h1>
+	<form name="bform" method="post" action="">
+		Date of birth<input type="date" name="dob"><br>
+		<input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="female">Female
 
-<h3>Benson &copy;2019</h3>
+		<br>
+		<input type="submit" value="check"><br>
+	</form>
+	<script type="text/javascript">
+		var maleFemaleName = [
+								['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'], //first row for male names
+								['Akosua','Adwoa','Abenna','Akua','Yaa','Afua','Ama'] //second row for remales names
+							];
+		document.forms['bform'].addEventListener("submit",birthMark);
+		alert(maleFemaleName[][])
+		function birthMark(e){
+			e.preventDefault(); //prevent form from submitting
+			var gender = document.forms['bform'].elements[1].checked ? 0 : 1; //this will give us the row index
+			var d = new Date(document.forms['bform'].elements[0].value); //this will give us the column index
+			var chosenname = maleFemaleName[gender][d.getDay()]; //choose a name based on the row, column values
+			alert(chosenname); //alert the name value chosen
+		}
+	</script>
+</body>
 </html>
