@@ -1,0 +1,100 @@
+nav {
+    width: 100%;
+    /* justify-content: space-around; */
+    display: flex;
+    position: relative;
+    margin-top: 0%;
+    background-color: silver;
+}
+
+nav ul {
+    text-align: right;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    /* margin-right: ; */
+    padding-left: 20px 0;
+    color: white;
+    top: 0%;
+    justify-content: space-between;
+}
+
+nav>ul>li>a
+{
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background: #08838b;
+    ;
+    color: rgba(12, 12, 9, 0.7);
+}
+
+footer {
+    background-color: silver;
+    /* text-align: center; */
+    margin-bottom: 1px;
+    list-style: none;
+}
+
+
+i {
+    padding: 10px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space space-around;
+}
+
+i:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background: #08838b;
+    color: rgba(12, 12, 9, 0.7);
+}
+
+
+footer ul li {
+    list-style: none;
+    align-self: right;
+    display: inline-block;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+
+footer>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background: #08838b;
+    ;
+    color: rgba(12, 12, 9, 0.7);
+}
+.button{
+    height: 50px;
+    width:100px;
+    border-radius: 20%;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+h3,h2,h1{
+    padding: 1%;
+    font-family: 'Abril Fatface', cursive;
+    color: #08838b;
+}
+h1{
+    color: #08838b
+}
