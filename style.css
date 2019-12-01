@@ -37,6 +37,11 @@ nav>ul>li>a:hover {
     ;
     color: rgba(12, 12, 9, 0.7);
 }
+nav img {
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+}
 
 footer {
     background-color: silver;
@@ -99,4 +104,18 @@ p {
     display: inline-block;
     margin: 4%;
     padding: 4%;
+}
+.forms{
+    background-image: url('https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.forms h2{
+    color:silver;
+}
+input{
+    background-color: #08838b;
+    margin: 5%;
 }
