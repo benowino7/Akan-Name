@@ -66,7 +66,7 @@ function ben(d, m, y, g) {
 
     for (var a = 0; a < 7; a++) {
         if (Math.ceil(formula) == (a)) {
-            document.getElementById("results").innerHTML = ("Day of birth: " + day[a] + "<br/>Your proud Akan name is " + g[a]);     
+            document.getElementById("results").innerHTML = ("Your day of birth is: " + day[a] + "<br/>Your proud Ghanaian Akan name would have been " + g[a]);     
             return 0;
         }
     }
