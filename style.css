@@ -119,3 +119,7 @@ input{
     background-color: #08838b;
     margin: 5%;
 }
+.forms p{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
