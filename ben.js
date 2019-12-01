@@ -53,6 +53,7 @@ function ben(d, m, y, g) {
         alert("INVALID DAY");
         return 0;
     }
+    else if(y<1 || y>2019){alert('INVALID YEAR CHOISE')}
 
     if (g == 'm') {
         g = male;
@@ -65,7 +66,7 @@ function ben(d, m, y, g) {
 
     for (var a = 0; a < 7; a++) {
         if (Math.ceil(formula) == (a)) {
-            document.getElementById("results").innerHTML = ("Day of birth: " + day[a] + "<br/> Akan name is " + g[a]);     
+            document.getElementById("results").innerHTML = ("Day of birth: " + day[a] + "<br/>Your proud Akan name is " + g[a]);     
             return 0;
         }
     }
