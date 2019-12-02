@@ -143,3 +143,6 @@ input {
     transform-origin: left top;
 }
 @keyframes ben {from{transform: rotate(20deg);} to{transform: rotate(-35deg);}}
+.results{
+    color: beige;
+}
