@@ -141,4 +141,4 @@ input {
     animation: ben 2s 2s alternate ease-in-out infinite ;
     transform-origin: left top;
 }
-@keyframes ben {from{transform: rotate(35deg);} to{transform: rotate(-25deg);}}
+@keyframes ben {from{transform: rotate(20deg);} to{transform: rotate(-35deg);}}
