@@ -1,13 +1,15 @@
 # Akan Ghana Name
 ```This project combines diferrent aspects of a web creation.
 It is divided into sections; introduction, Filling form to attain Akan Ghana name and contuct us section.
-it also have section where one
-it has a footer which allows us to be contucted and receive feedback.
+it also have section where one can Explore our triangle tracker
+it has a footer which allows the user to contuct us and  we can receive feedback.
 ```
 
 
 ## Installation and usage
 ```does not need instolation since it readily web available. just type the link below for more info```
+```but one can go to https://github.com/benowino5/Akan-Name git clone the you git fork then open in a web server to run
+```
 #caution
 Dont
 ```bash
@@ -19,8 +21,7 @@ pip install foobar
 
 ```html
 import the link
-
-create.contech account
+to your browser from https://github.com/benowino5/Akan-Name
 log in
 ```
 
