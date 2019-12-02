@@ -4,7 +4,12 @@ It is divided into sections; introduction, Filling form to attain Akan Ghana nam
 it also have section where one can Explore our triangle tracker
 it has a footer which allows the user to contuct us and  we can receive feedback.
 ```
-
+#INSTRUCTIONS
+```
+The page will requre the user to fill in their:
+day, month, year of birth and gender and it will calculate and return they day of the week and 
+their posible Akan Ghana name.
+```
 
 ## Installation and usage
 ```does not need instolation since it readily web available. just type the link below for more info```
