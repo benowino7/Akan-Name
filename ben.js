@@ -53,7 +53,7 @@ function ben(d, m, y, g) {
         alert("INVALID DAY");
         return 0;
     }
-    else if(y<1 || y>2019){alert('INVALID YEAR CHOISE')}
+    else if(y<1 || y>2019){alert('INVALID YEAR CHOICE')}
 
     if (g == 'm') {
         g = male;
